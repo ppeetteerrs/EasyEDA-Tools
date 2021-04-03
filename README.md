@@ -1,4 +1,10 @@
 # EasyEDA-Tools by Peter Yuen
+
+To load the extension:
+1. `git clone https://github.com/ppeetteerrs/EasyEDA-Tools.git`
+2. Open EasyEDA `Advanced => Extensions => Extensions Setting => Load Extension...`
+3. Select all files except the `imgs` folder
+4. And you are good to go!
 ## 1 Reusable Schematic and PCB Modules (Rename Module + Replace Net Names)
 
 Currently, EasyEDA supports schematic and PCB modules but not hierarchical modules. This makes net naming and multiple instantiation of the same schematic module very difficult (as net names are all global).
