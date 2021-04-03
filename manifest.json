@@ -1,0 +1,14 @@
+{
+	"name": "Custom Tools",
+	"description": "Useful EasyEDA tools by Peter Yuen.",
+	"version": "1.0",
+	"icons": {
+		"default": "icon.svg",
+		"16": "icon16.png",
+		"24": "icon24.png",
+		"32": "icon32.png"
+	},
+	"scripts": [
+		"main.js"
+	]
+}
