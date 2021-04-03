@@ -1,25 +1,5 @@
 # EasyEDA-Tools by Peter Yuen
-## 1 Change Font
-
-Changes all text in current tab to the target font.
-
-**Before**: Verdana font.
-
-![](imgs/font-before.png)
-
-**Select "Change Font" from menu**
-
-![](imgs/font-select.png)
-
-**Font Options**: change `FONTS` in `main.js` to add more valid fonts.
-
-![](imgs/font-options.png)
-
-**After**: Times New Roman font.
-
-![](imgs/font-after.png)
-
-## 2 Reusable Schematic and PCB Modules (Rename Module + Replace Net Names)
+## 1 Reusable Schematic and PCB Modules (Rename Module + Replace Net Names)
 
 Currently, EasyEDA supports schematic and PCB modules but not hierarchical modules. This makes net naming and multiple instantiation of the same schematic module very difficult (as net names are all global).
 
@@ -57,6 +37,25 @@ This tools library allow schematic and PCB modules to be reused easily. The foll
 **AND YOU ARE DONE! REPEAT FOR MORE INSTANCES! 🎉🎉🎉**
 
 ![](imgs/rename-done.png)
+## 2 Change Font
+
+Changes all text in current tab to the target font.
+
+**Before**: Verdana font.
+
+![](imgs/font-before.png)
+
+**Select "Change Font" from menu**
+
+![](imgs/font-select.png)
+
+**Font Options**: change `FONTS` in `main.js` to add more valid fonts.
+
+![](imgs/font-options.png)
+
+**After**: Times New Roman font.
+
+![](imgs/font-after.png)
 
 ## 3 Replace Net Names
 - Remove the `_G` prefixes using the `Replace Net Names` tool.
